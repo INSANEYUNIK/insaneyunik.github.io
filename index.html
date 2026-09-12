@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yunik — Creative Developer & Designer</title>
+    <meta name="description" content="Yunik's fun and creative portfolio — Developer, Designer, Problem Solver" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <!-- Background Animated Particles Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Mouse Spotlight Effect -->
+    <div class="mouse-spotlight" id="mouse-spotlight"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <a href="#home" class="logo">
+          <span class="logo-emoji">🚀</span>
+          <span class="logo-text">YUNIK</span>
+        </a>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-emoji">👋</div>
+          <h1 class="hero-title">
+            Hey! I'm <span class="gradient-text">Yunik</span>
+          </h1>
+          <p class="hero-subtitle">Developer • Designer • Coffee Addict ☕</p>
+          <p class="hero-description">
+            I turn caffeine into code and ideas into reality. Currently breaking things and fixing them for fun.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <span class="btn-icon">→</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Let's Talk</span>
+              <span class="btn-icon">💬</span>
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number">∞</div>
+              <div class="stat-label">Bugs Fixed</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">☕</div>
+              <div class="stat-label">Coffee Consumed</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">🎉</div>
+              <div class="stat-label">Projects Shipped</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="floating-card card-1">💻</div>
+          <div class="floating-card card-2">🎨</div>
+          <div class="floating-card card-3">⚡</div>
+          <div class="floating-card card-4">🚀</div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <div class="scroll-arrow">↓</div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="title-emoji">🤔</span>
+          <span>About Me</span>
+        </h2>
+        <div class="about-content">
+          <p class="about-text">
+            I'm a developer who thinks in pixels and dreams in code. Based in Nepal 🇳🇵,
+            I spend my days crafting digital experiences that don't suck. When I'm not debugging at 3 AM,
+            you'll find me exploring new tech, building random side projects, or arguing about tabs vs spaces.
+          </p>
+          <div class="about-circles">
+            <div class="circle-item">
+              <div class="circle-icon">💻</div>
+              <div class="circle-label">Developer</div>
+            </div>
+            <div class="circle-item">
+              <div class="circle-icon">🎨</div>
+              <div class="circle-label">Designer</div>
+            </div>
+            <div class="circle-item">
+              <div class="circle-icon">⚡</div>
+              <div class="circle-label">Creator</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="title-emoji">🛠️</span>
+          <span>My Toolkit</span>
+        </h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h3>Frontend Magic</h3>
+            <div class="skill-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>Vue.js</span>
+              <span>Tailwind</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">⚙️</div>
+            <h3>Backend Wizardry</h3>
+            <div class="skill-tags">
+              <span>Node.js</span>
+              <span>Python</span>
+              <span>Express</span>
+              <span>MongoDB</span>
+              <span>PostgreSQL</span>
+              <span>APIs</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🔧</div>
+            <h3>Tools & More</h3>
+            <div class="skill-tags">
+              <span>Git</span>
+              <span>Figma</span>
+              <span>Docker</span>
+              <span>VS Code</span>
+              <span>Linux</span>
+              <span>Photoshop</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="title-emoji">🎯</span>
+          <span>Fun Projects</span>
+        </h2>
+        <p class="section-subtitle">
+          A collection of side projects, experiments, and things I built for fun 🎨
+        </p>
+        <div class="projects-grid" id="projects-grid">
+          <!-- Projects injected via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="title-emoji">📬</span>
+          <span>Let's Connect!</span>
+        </h2>
+        <p class="section-subtitle">
+          Got a project in mind, a question, or just want to say hi?
+          <br>Click any circle below to connect directly!
+        </p>
+
+        <div class="circular-contact-group">
+          <!-- Email Button -->
+          <div class="contact-circle-card">
+            <a href="mailto:INSANEYUNIK@GMAIL.COM?subject=Hello%20Yunik&body=Hi%20Yunik,%0A%0AI'd%20like%20to%20get%20in%20touch!" class="circle-3d-btn email-circle" id="email-action-btn" title="Send Email">
+              <div class="btn-3d-face">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/>
+                </svg>
+              </div>
+            </a>
+            <h3 class="circle-label-title">Email Me</h3>
+            <p class="circle-label-sub">INSANEYUNIK@GMAIL.COM</p>
+          </div>
+
+          <!-- WhatsApp Button -->
+          <div class="contact-circle-card">
+            <a href="https://wa.me/9779707909626?text=Hi%20Yunik,%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener" class="circle-3d-btn whatsapp-circle" title="Chat on WhatsApp">
+              <div class="btn-3d-face">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+              </div>
+            </a>
+            <h3 class="circle-label-title">WhatsApp</h3>
+            <p class="circle-label-sub">+977 9707909626</p>
+          </div>
+
+          <!-- Facebook Button -->
+          <div class="contact-circle-card">
+            <a href="https://www.facebook.com/itzyunik7" target="_blank" rel="noopener" class="circle-3d-btn facebook-circle" title="View Facebook">
+              <div class="btn-3d-face">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+              </div>
+            </a>
+            <h3 class="circle-label-title">Facebook</h3>
+            <p class="circle-label-sub">@itzyunik7</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-text">
+          Made with 💜 and ☕ by Yunik
+        </p>
+        <p class="footer-copy">
+          © <span id="year"></span> Yunik. All rights reserved. No bugs were harmed in the making of this site.
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
